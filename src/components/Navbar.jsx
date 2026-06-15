@@ -1,3 +1,4 @@
+// Navbar component with responsive layout
 import { Link } from 'react-router-dom'
 
 function Navbar() {
