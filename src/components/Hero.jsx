@@ -1,3 +1,4 @@
+// Hero section with CTA button
 function Hero() {
   return (
     <div className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-20 px-6 text-center">
