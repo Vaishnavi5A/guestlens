@@ -1,3 +1,4 @@
+// Dark/Light mode toggle with localStorage persistence
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 
