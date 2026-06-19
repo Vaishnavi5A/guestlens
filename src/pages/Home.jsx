@@ -12,11 +12,11 @@ const features = [
 
 function Home() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
       <Navbar />
       <Hero />
       <div className="max-w-6xl mx-auto px-6 py-12">
-        <h2 className="text-2xl font-bold text-center text-indigo-700 mb-8">Core Features</h2>
+        <h2 className="text-2xl font-bold text-center text-indigo-700 dark:text-indigo-300 mb-8">Core Features</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((f, i) => (
             <Card key={i} title={f.title} description={f.description} icon={f.icon} />

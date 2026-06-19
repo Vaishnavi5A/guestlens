@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Dashboard from './pages/Dashboard'
 import About from './pages/About'
 import Login from './pages/Login'
+import UIShowcase from './pages/UIShowcase'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/ui" element={<UIShowcase />} />
       </Routes>
     </BrowserRouter>
   )
